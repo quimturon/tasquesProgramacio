@@ -1,6 +1,5 @@
 <h2 align="center"> Projecte de Quim Turon </h2>
-<h4 align="center"> Lliure ús i distribució, creat per la gestió de l'electrònica a projectes personals.</h4>
-<h5 align="center"> Serveix per gestionar un circuit amb diversos mòduls, pantalles, botons i codificadors rotatoris per la gestió general de les llums de la meva habitació utilitzant una xarxa ESP-Now amb múltiples ESP32</h5>
+<h4 align="center"> Entrega de deures i tasques de programació.</h4>
 
 ###
 
