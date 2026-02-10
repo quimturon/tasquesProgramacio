@@ -16,7 +16,3 @@
 
 
 ###
-
-<br clear="both">
-
-<img src="https://raw.githubusercontent.com/quimturon/tasquesProgramacio/output/snake.svg" alt="Snake animation" />
