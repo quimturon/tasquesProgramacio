@@ -1,5 +1,5 @@
-<h2 align="center"> Projecte de Quim Turon </h2>
-<h4 align="center"> Entrega de deures i tasques de programació.</h4>
+<h2 align="center">Projecte de Quim Turon </h2>
+<h4 align="center">Entrega de deures i tasques de programació.</h4>
 
 ###
 
@@ -12,7 +12,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="60" alt="css3 logo"  />
   <img width="24" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="60" alt="python logo"  />
-  <img width="24" />
 </div>
 
 
