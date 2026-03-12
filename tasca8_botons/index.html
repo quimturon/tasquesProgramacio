@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <title>Inscripció</title>
+    <style>
+        button {
+            background-color: green; /* Verd */
+            color: red;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: red;
+            color: green;
+        }
+
+        text{
+            background-color: lightslategray;
+            border-radius: 10px;
+            border-color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Formulari d'inscripció voluntariat</h1>
+    <form 
+        action="https://formspree.io/f/xreykggy"
+        method="POST">
+        <label for="nom">Nom: </label>
+        <input type="text" name="nom" id="nom" placeholder="Introdueix el teu nom" required> 
+        
+        <br><label for="correu">Correu electrònic: </label>
+        <input type="text" name="correu" id="correu" placeholder="johndoe@email.service" required>
+
+        <br><label for="ciutat">Ciutat</label>
+        <input type="text" name="ciutat" id="ciutat" placeholder="Mongat" required>
+
+        <br><p>Tens experiència en voluntariats?:</p>
+        <input type="radio" id="si" name="experiencia" value="si" >
+        <label for="si">Si</label><br>
+        <input type="radio" id="no" name="experiencia" value="no">
+        <label for="no">No</label><br>
+
+        <br><p>Activitats que vols cobrir:</p>
+        <input type="checkbox" id="recollir" name="activitats" value="recollir">
+        <label for="recollir">Recollir pilotes</label><br>
+        <input type="checkbox" id="transport" name="activitats" value="transport">
+        <label for="transport">Transportar equipament</label><br>
+        <input type="checkbox" id="dirigir" name="activitats" value="dirigir">
+        <label for="dirigir">Dirigir activitats</label><br> 
+        
+        <br><label for="coments">Comentaris: </label>
+        <br><textarea name="coments" id="coments" cols="40" rows="4"></textarea>
+        <br><button type="submit" style=button>Enviar</button> 
+        <button type="reset" style=button >Reiniciar</button>
+        <button type="button" style=button >Botó</button>
+
+    </form>
+</body>
+</html>
