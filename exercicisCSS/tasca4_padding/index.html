@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        .card{
+            background-color: green;
+            border: 5px dotted black;
+            border-width: 5px;
+            border-radius: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            text-align: center;
+        }
+        .highlight {
+            background-color:yellow;
+            color: red;
+            border: 5px dotted red;
+            border-width: 5px;
+            border-radius: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+        }
+        .section-content {
+            text-align: justify;
+            color: black;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-family: sans-serif;
+        }
+        .section-title {
+            font-family: sans-serif;
+            font-size: large;
+            color: #333;
+            text-align: center;
+            vertical-align: center;
+        }
+        .button{
+            border-width: 5px;
+            border-radius: 5px;
+            border-color: red;
+            padding-right: 5px;
+            padding-left: 5px;
+            width: 200px;
+            height: 200px;
+            border: 5px dashed #333;
+        }
+        .img{
+            border-radius: 10px;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+            height: 200px;
+        }
+        .columnes{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+        }
+        .menu{
+            width: 100%;
+            display: flex;
+            gap: 20px;
+            padding-left: 50px;
+            align-items: center;
+            font-family: sans-serif;
+        }
+        .enllac{
+            font-family: sans-serif;
+            color: grey;
+            text-decoration: none;
+        }
+
+    </style>
+    <title>Quim Tasca 3 CSS</title>
+</head>
+<body style="background-color: lightgrey;">
+    <header>
+        <div class="menu">
+            <h1>Menu</h1>
+            <a class="enllac" href="https://google.com"><h2>Google</h2></a>
+            <a class="enllac" href="https://institutgorgs.cat/"><h2>Institut Gorgs</h2></a>
+            <a class="enllac" href="https://programacioweb1batxillerat.notion.site/"><h2>Guia</h2></a>            
+        </div>
+    </header>
+    <div class="columnes">
+        <div class="card">
+        <p class="section-title"><b>Gos</b></p>
+        <div class="section-content">
+            <p>El gos, ca o quisso (Canis lupus familiaris) és un mamífer carnívor de la família dels cànids. Es tracta d'una subespècie domesticada del llop i és l'únic cànid que ha estat domesticat del tot. Els éssers humans en tenen com a animals de companyia o gossos de treball. </p>
+            <p style="padding-left: 20px; padding-right: 20px;">Els gossos de carrer o ferals, en canvi, tendeixen a evitar el contacte humà. La Federació Cinològica Internacional (FCI) en reconeix 353 races, que presenten una gran varietat de dimensions, fisonomies i temperaments.</p>
+        </div>
+        <div class="columnes">
+            <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShLjISMdfpgVSh7YatvHkd6bt2keYo67JxZw&s" alt="Gos">
+            <button class="button">Gos</button>
+        </div>
+        </div><br><div class="highlight">
+            <p class="section-title"><b>Plàtan</b></p>
+            <p class="section-content">La banana o plàtan és el fruit en forma de baia oblonga i arquejada del bananer o plataner, de polpa farinosa, pell gruixuda i llavors grosses en estat salvatge, que a les varietals cultivades és mancada de llavors i comestible.</p>
+            <div class="columnes">
+                <img class="img" src="data:image/jpeg;base64,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" alt="Banana">
+                <button class="button">Banana</button>
+            </div>
+        </div><br>
+            <div class="card">
+            <p class="section-title"><b>Pi</b></p>
+            <p class="section-content">Pi és el nom comú de nombroses espècies d'arbres, principalment coníferes de diversos gèneres de la família de les pinàcies, per bé que espècies d'altres famílies que també es coneixen popularment com a pins.</p>
+        <div class="columnes">
+            <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAfUzjuH--C6uc67MMCuJz-3nNdT5X0yLXMw&s" alt="Gos">
+            <br>
+            <button class="button">Gos</button>
+        </div>
+    </div>
+</div>
+</body>
+<footer style="flex: auto;">
+    <p style="color: black;flex: 1 1 end;font-family: sans-serif;">Quim Turon i Pi 2026</p>
+</footer>
+</html> 
