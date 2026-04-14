@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        .card{
+            border: 5px dotted black;
+            width: 380px;
+            border-width: 5px;
+            border-radius: 45px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 5px;
+            text-align: center;
+            box-shadow: 10px #333;
+        }
+        .bg1{
+            background-image:url("https://t3.ftcdn.net/jpg/03/33/67/80/360_F_333678091_tOcalp3NEz7oNgOSS8gXYtfH5Q4DPOV9.jpg");
+        }
+        .section-content {
+            text-align: justify;
+            color: black;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-family: sans-serif;
+        }
+        .section-title {
+            font-family: sans-serif;
+            font-size: large;
+            color: #333;
+            text-align: center;
+            vertical-align: center;
+        }
+        .button{
+            
+            border-width: 5px;
+            border-radius: 5px;
+            border-color: red;
+            padding-right: 5px;
+            padding-left: 5px;
+            width: 200px;
+            height: 200px;
+            border: 5px dashed #333;
+        }
+        .button:hover {
+            background-color: rgb(83, 83, 83); /* Green */
+            color: white;
+        }
+        .img{
+            border-radius: 10px;
+            width: 200px;
+            border: 5px solid black;
+        }
+        .columnes{
+            padding-left: 20px;
+            padding-right: 20px;
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+        }
+        .menu{
+            width: 100%;
+            display: flex;
+            gap: 30px;
+            padding-left: 20px;
+            align-items: center;
+            font-family: sans-serif;
+        }
+        .enllac{
+            font-family: sans-serif;
+            color: grey;
+            text-decoration: none;
+        }
+        .transition-box {
+            transition: transform 0.5s linear, background-color 0.5s linear;
+        }
+
+        .transition-box:hover {
+            transform: scale(1.1);
+        }
+
+
+        .transform-box {
+            background-color: lightgreen;
+            transform: rotate(5deg);
+        }
+
+        @keyframes move-box {
+            0%   {left: 0px; top: 0px; background-color: lightblue;}
+            50%  {left: 69%; top: 0px; background-color: yellow;}
+            100% {left: 0px; top: 0px; background-color: lightblue;}
+        }
+
+        .animation-box {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            animation-name: move-box;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+    </style>
+    <title>Tasca 5</title>
+</head>
+<body style="background-color: lightgrey;">
+    <header>
+        <div class="menu animation-box">
+            <h1>Menu</h1>
+            <a class="enllac transition-box" href="https://google.com"><h2>Google</h2></a>
+            <a class="enllac transition-box" href="https://institutgorgs.cat/"><h2>Institut Gorgs</h2></a>
+            <a class="enllac transition-box" href="https://programacioweb1batxillerat.notion.site/"><h2>Guia</h2></a>            
+        </div>
+    </header>
+    <br><br><br><br><br><br>
+    <div class="columnes">
+        <div class="card transition-box" style="background-color: lightskyblue;">
+        <p class="section-title"><b>Ànec</b></p>
+        <div class="section-content">
+            <p>L'ànec és una espècie d'ocell aquàtic de la família dels anàtids. És conegut pel seu coll llarg, plomes suaus i plomes de colors variats. És un animal molt comú en els llacs i rius.</p>
+        </div>
+        <div class="columnes">
+            <img class="img transform-box" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsClMg3CWTa23NQ_I94OCOHYM75bgj9jv13F0WP2pkjIVeQVsem3ZovEwg-ZpXXJmPCRHrkMx_N_1ZoDiHggbGv6YSw6DWsT3Q8aIV0Q&s=10" alt="Ànec">
+            <button class="button">Ànec</button>
+        </div>
+    </div><br><div class="card transition-box" style="background-color: #d9fa6e;">
+            <p class="section-title"><b>Pomelo</b></p>
+            <p class="section-content">El pomelo és un fruit cítric de la família de les rutàcies, de forma esfèrica i grandària semblant a la de la taronja, amb una pell gruixuda i una polpa suculenta i àcida.</p>
+            <div class="columnes">
+                <img class="img transform-box" src="https://www.foodandwine.com/thmb/a-5wwQY4Awb-0GWQgchD1Tyv5s0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/What-are-pomelos-FT-BLOg0125-ca8c13a65e8942c584e3833690cdfee0.jpg" alt="Pomelo">
+                <button class="button">Pomelo</button>
+            </div>
+    </div><br>
+        <div class="card bg1 transition-box">
+            <p class="section-title" style="color: white;"><b>Llimona</b></p>
+            <p class="section-content"style="color: white;">La llimona és un fruit del gènere Citrus de color groc brillant, amb un sabor àcid i refrescant. S’utilitza sovint per fer begudes, postres i com a condiment.</p>
+            <div class="columnes">
+                <img class="img transform-box" src="https://todolicitrusfundacio.org/wp-content/uploads/2024/09/TCF-394-ID.jpg" alt="Llimona">
+                <br>
+                <button class="button">Llimona</button>
+            </div>
+        </div>
+    </div>
+</body>
+<footer style="flex: auto;">
+    <p style="color: black;flex: 1 1 end;font-family: sans-serif;">Quim Turon i Pi 2026</p>
+</footer>
+</html>
