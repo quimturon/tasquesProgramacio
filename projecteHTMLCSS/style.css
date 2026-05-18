@@ -1,20 +1,118 @@
+html{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 h1{
     font-weight: bolder;
     color: #ededed;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 1%;
 }
 h2{
+    font-size: x-large;
     color: #c9c9c9;
+}
+h3{
+    font-size: 18px;
+    font-weight: normal;
+    color: #c9c9c9;
+}
+a{
+    font-weight: bold;
+}
+p{
+    color: #e1e1e1;
+    font-size: 16px;
+    text-align: justify;
+    font-weight: normal;
+}
+body{
+  background-image: url("img/pcbFons2.jpg");
+  background-repeat: repeat;
+  min-height: 100vh;
+  margin: 0;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+textarea{
+  width: 30%;
+  height: 20%;
 }
 .menu{
     display: flex;
     gap: 5%;
     padding-left: 3%;
-    height: 100%;
+    max-height: 50px;
     align-items: center;    
     background-color: #0c4012;
 }
-a{
-    font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.box{
+    display: flex;
+    gap: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+}
+.dropdown {
+  position: relative;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0c4012;
+  min-width: 130px;
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  top: 100%;
+  left: 0;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.imatgepetita{
+  display: flex;
+  object-fit: cover;
+  width: 100%;
+  height: 35%;
+  justify-self: right;
+}
+.imatge{
+  display: flex;
+  object-fit: cover;
+  width: 40%;
+  padding-right: 1%;
+  justify-self: right;
+}
+.pressupost{
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 4%;
+  justify-content: left;
+  height:70vh;
+  width: 60%;
+  background-color: #0c4012;
+  justify-self: left;
+}
+.inputtext{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 35%;
+  height: 5%;
+  padding-left: 1%;
+  margin-bottom: 1%;
+}
+.inputtextarea{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  height: 10vh;
+  padding-left: 1%;
+  margin-bottom: 1%;
+}
+.file{
+  height: 100%;
+  width: 100%;
+  margin-bottom: 1%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: lightgray;
 }
